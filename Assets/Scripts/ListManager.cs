@@ -48,17 +48,21 @@ public class ListManager : MonoBehaviour
 
     public void ChangePagePrev()
     {
-        foreach (GameObject level in listLevels)
+        if (page >= 2)
         {
-            int levelID = short.Parse(level.GetComponentInChildren<TextMeshProUGUI>().text);
-            if(page >= 2)
+            foreach (GameObject level in listLevels)
             {
-                
-                level.GetComponentInChildren<TextMeshProUGUI>().text = (levelID - 9).ToString();
+                int levelID = short.Parse(level.GetComponentInChildren<TextMeshProUGUI>().text);
+               
+                {
+
+                    level.GetComponentInChildren<TextMeshProUGUI>().text = (levelID - 9).ToString();
+                }
+
             }
-            
+            page--;
         }
-        page--;
+        
     }
 
 }

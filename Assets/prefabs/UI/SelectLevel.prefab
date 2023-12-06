@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831465, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_Name
-      value: SelectLevel
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_Pivot.x
@@ -33,7 +33,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_AnchorMin.x
@@ -41,15 +41,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_LocalScale.x
@@ -89,11 +89,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8430308568745831466, guid: 2e14badb1cc03584ea11642455a2d9f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -127,6 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e46c273b3239654399c721bb74049af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingCanvas: {fileID: 0}
+  loading: {fileID: 0}
   scene:
     m_Handle: 0
 --- !u!1 &583703582907233491 stripped
